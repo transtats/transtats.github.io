@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Translation Statistics">
+    <meta name="author" content="suanand@redhat.com">
+    <link rel="icon" href="assets/img/favicon.ico">
+
+    <title>transtats</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/jumbotron-narrow.css" rel="stylesheet">
+    <style type="text/css">
+        .img-block {
+            display: block;
+            max-width:150px;
+            max-height:150px;
+            width: auto;
+            height: auto;
+        }
+    </style>
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<div class="container">
+    <div class="header clearfix">
+        <nav>
+            <ul class="nav nav-pills pull-right">
+                <li role="presentation"><a href="index.html">Home</a></li>
+                <li role="presentation"><a href="features.html">Features</a></li>
+                <li role="presentation"><a href="http://transtats.rtfd.io/" target="_blank">Docs</a></li>
+            </ul>
+        </nav>
+        <h3 class="text-muted">Translation Stats</h3>
+    </div>
+
+    <div style="padding-left:50px;padding-bottom:50px">
+        <div class="content-section-a">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-sm-5">
+                        <hr class="section-heading-spacer">
+                        <div class="clearfix"></div>
+                        <h4 class="section-heading" style="color:#080808">Track translation progress</h4>
+                        <p style="font-size: medium;" class="text-justify">In development of localised software, translation progress needs to be monitored on release-to-release basis. Transtats collects template files, analyse their translation statistics and generate graphs.</p>
+                    </div>
+                    <div class="col-lg-5 col-lg-offset-1 col-sm-5">
+                        <hr class="section-heading-spacer">
+                        <img class="img-responsive img-block" src="assets/img/chart.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.content-section-a -->
+
+        <div class="content-section-b">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-lg-offset-1 col-sm-push-4  col-sm-5">
+                        <hr class="section-heading-spacer">
+                        <div class="clearfix"></div>
+                        <h4 class="section-heading" style="color:#080808">Custom graph rules</h4>
+                        <p style="font-size: medium;" class="text-justify">How about consolidate stats for the list of packages for a language set? Graph based on rules facilitate representation of stats for more specific requirements for better results.</p>
+                    </div>
+                    <div class="col-lg-5 col-sm-pull-5  col-sm-5">
+                        <hr class="section-heading-spacer">
+                        <img class="img-responsive img-block" src="assets/img/custom.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- /.container -->
+        </div>
+
+        <div class="content-section-a">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-sm-5">
+                        <hr class="section-heading-spacer">
+                        <div class="clearfix"></div>
+                        <h4 class="section-heading" style="color:#080808">Compare with release streams</h4>
+                        <p style="font-size: medium;" class="text-justify">Sometimes translation platform shows good progress yet it is found that package released does not contain the latest. Transtats never let you down at translation check point.</p>
+                    </div>
+                    <div class="col-lg-5 col-lg-offset-1 col-sm-5">
+                        <hr class="section-heading-spacer">
+                        <img class="img-responsive img-block" src="assets/img/check.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.content-section-a -->
+        <div class="content-section-b">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-lg-offset-1 col-sm-push-4  col-sm-5">
+                        <hr class="section-heading-spacer">
+                        <div class="clearfix"></div>
+                        <h4 class="section-heading" style="color:#080808">Frequent sync with repositories</h4>
+                        <p style="font-size: medium;" class="text-justify">Transtats pulls data from code and translation repositories at regular intervals for latest data representations. Snapshots are also kept to manage translation growth analysis.</p>
+                    </div>
+                    <div class="col-lg-5 col-sm-pull-5  col-sm-5">
+                        <hr class="section-heading-spacer">
+                        <img class="img-responsive img-block" src="assets/img/sync.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- /.container -->
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>
+            <span>&copy; 2017 Red Hat, Inc.</span>
+            <span class="pull-right"><img alt="Red Hat" src="assets/img/redhat.png"/></span>
+        </p>
+    </footer>
+
+</div> <!-- /container -->
+
+
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>
