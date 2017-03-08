@@ -50,8 +50,8 @@
     </div>
 
     <div class="jumbotron">
-        <h3>Overview and trends for language translations across packages!</h3>
-        <p class="lead">Transtats is a django app to track translation progress of packages for downstream releases with respect to current development.</p>
+        <h3>Overview for language translations across packages!</h3>
+        <p>Transtats is a django app to track translation progress of packages for downstream releases with respect to current development.</p>
         <p>
             <a class="btn btn-lg btn-default" href="https://github.com/transtats/transtats" role="button" target="_blank">View on GitHub</a>
             <a id="applink" class="btn btn-lg btn-default" href="#" role="button">Go to App</a>
@@ -59,13 +59,13 @@
     </div>
 
     <div style="padding:40px" class="panel panel-default">
-        <h3>How it works...</h3>
-        <ol type="1">
-            <li><h4>Sync with translation platform for statistics <small>How translation progress is going?</small></h4></li>
-            <li><h4>Compare stats with release streams <small>Is latest translations pulled and packaged?</small></h4></li>
-            <li><h4>Manage translation differences <small>What piece of translation cause an error or left to get translated?</small></h4></li>
-            <li><h4>Keep upstream updated <small>Automate push/pull operations to update source with translations.</small></h4></li>
-            <li><h4>Create notifications <small>Based on release dates: emails to Developers, Managers and Quality Engineers.</small></h4></li>
+        <h3>How it works...</h3><br/>
+        <ol>
+            <li><h4>Create mapping <small>between translation platforms, releases (schedule & build system) and upstream.</small></h4></li>
+            <li><h4>Sync with translation platforms <small>for translation statistics of packages configured.</small></h4></li>
+            <li><h4>Depict translation position <small>graph of package for most branches in all enabled languages.</small></h4></li>
+            <li><h4>Generate rule based graphs <small>release specific, for a set of packages in chosen languages.</small></h4></li>
+            <li><h4>Create notifications <small>based on release schedule, notify developers, managers and quality engineers.</small></h4></li>
         </ol><br/>
 
         <img src="assets/img/ts-stack.png" alt="TS Stack"/><br/><br/>
@@ -76,8 +76,12 @@
 
     <footer class="footer">
         <p>
-            <span>&copy; 2017 Red Hat, Inc.</span>
-            <span class="pull-right"><img alt="Red Hat" src="assets/img/redhat.png"/></span>
+            <span style="padding-left: 10px;padding-right: 20px" class="pull-left"><img alt="Red Hat" src="assets/img/redhat.png"/></span>
+            <span class="text-muted" style="font-size: small">Transtats is a <a href="https://www.redhat.com/" target="_blank">Red Hat</a> sponsored project.<br/>
+                Content on this site is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">
+                    Creative Commons Attribution 4.0 International license.</a>
+            </span>
+            <span class="pull-right">&nbsp;</span>
         </p>
     </footer>
 
