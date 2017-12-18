@@ -1,0 +1,8 @@
+---
+layout: default
+img: coverage.png
+category: Services
+title: Translation Coverage<br><small>based on</small> graph rules
+description: |
+---
+This is for custom needs. Translation coverage of a package list for a specific release in associated (to release branch) or selected languages. These are based on graph rules, which can be created by anyone.

@@ -1,0 +1,8 @@
+---
+layout: default
+img: status.png
+category: Features
+title: Translation Status<br>of packages
+description: |
+---
+Translation progress of packages for most of the release branches in all enabled languages. This includes translation statistics of upstream repository as well. Provided packages are sync'd.

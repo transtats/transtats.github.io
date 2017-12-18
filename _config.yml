@@ -1,0 +1,27 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+url: http://transtats.org
+title: Transtats
+email: suanand@redhat.com
+author: Sundeep Anand
+description: > # "Track translation progress across packages for downstream releases with respect to current development.
+copyright: 'Copyright &copy; 2017 Transtats. All Rights Reserved.'
+credits: 'Credits: Sundeep Anand <suanand@redhat.com>'
+
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+social:
+  - title: github
+    url: https://github.com/transtats/transtats

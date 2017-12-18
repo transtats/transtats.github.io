@@ -1,0 +1,8 @@
+---
+layout: default
+img: workload.png
+category: Features
+title: Translation Workload<br>by releases
+description: |
+---
+Translation workload estimation for a release branch across packages. It has three views: combined, detailed and per languages. This is achieved through name and branch mapping created for every package. 
