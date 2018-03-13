@@ -5,4 +5,4 @@ category: Services
 title: Package set coverage<br><small>based on</small> graph rules
 description: |
 ---
-Sometimes tracking translation status of a component <small>(for a release)</small> is required. Where one component comprises of a set of packages. This can be achieved by creating graph rules. Rule of a package set for a specific release in associated <small>(to release branch)</small> or selected languages. And coverage graphs are created based on these rules.
+Sometimes tracking translation status of a component (for a release) is required, where a component comprises of a set of packages. This can be achieved by creating graph rules. Rule of a package set for a specific release in associated (to release branch) or selected languages. And coverage graphs are created based on these rules.
