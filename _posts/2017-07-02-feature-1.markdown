@@ -2,7 +2,7 @@
 layout: default
 img: status.png
 category: Features
-title: Translation Status<br>of packages
+title: Package translation completeness
 description: |
 ---
-Translation progress of packages for most of the release branches in all enabled languages. This includes translation statistics of upstream repository as well. Provided packages are sync'd.
+Once package is sync'd with the translation platform, upstream repository and build system through jobs, meaningful results can be obtained. It shows translation position at all three places. Plus with branch mapping done, differences could be calculated which indicate package is out-of-sync or not. If yes, then which languages need attention to get it fixed.  

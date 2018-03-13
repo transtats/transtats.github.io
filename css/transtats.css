@@ -164,3 +164,11 @@ footer {
 p.copyright {
     margin: 15px 0 0;
 }
+
+.navbar {
+    letter-spacing: 1px;
+}
+
+.navbar-inverse a {
+    color: lightgrey !important;
+}

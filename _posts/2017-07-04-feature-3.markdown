@@ -2,7 +2,7 @@
 layout: default
 img: coverage.png
 category: Services
-title: Translation Coverage<br><small>based on</small> graph rules
+title: Package set coverage<br><small>based on</small> graph rules
 description: |
 ---
-This is for custom needs. Translation coverage of a package list for a specific release in associated (to release branch) or selected languages. These are based on graph rules, which can be created by anyone.
+Sometimes tracking translation status of a component <small>(for a release)</small> is required. Where one component comprises of a set of packages. This can be achieved by creating graph rules. Rule of a package set for a specific release in associated <small>(to release branch)</small> or selected languages. And coverage graphs are created based on these rules.

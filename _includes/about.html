@@ -1,15 +1,18 @@
     <!-- About Section -->
-    <section id="about" class="container content-section text-center">
+    <section id="about" class="container content-section">
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-12" style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif">
               <br/><br/>
-              <h2>About Transtats</h2>
+              <h2>Overview</h2>
               <br/>
+                <h4>Why Transtats?</h4>
                 <p>In a software release cycle, localization steps like extracting or updating language resource, pushing them to translation platform, pulling and packaging translations, quality checks etc. seem necessary but sometimes they lack attention which results in delay.</p>
-                <p>Transtats is an attempt to tie up loose ends by creating mapping between translation platforms, releases (schedule & build system) and upstream. Its mostly around syncing with Translation Platform for statistics, comparing stats with Release Streams, managing translation differences, keeping upstream updated and creating notifications.</p>
-                <p>Tracking translation progress of packages for downstream releases with respect to current development seems meaningful to localization managers, developers and quality engineers.</p>
-                <br/><img alt="Transtats Arch" src="img/ts-stack.png"/><br/><br/>
-                <p>Architecture wise, Transtats Jobs operate on some inventory: translation platforms, release streams and upstream repositories for registered packages to process translation data, and represent information in the form of tabular, graphs for enabled languages.</p>
+                <p>Transtats is an attempt to tie up loose ends. Concept is mostly around syncing with Translation Platform for statistics, comparing stats with Release Streams, managing translation differences, keeping upstream updated and creating notifications.</p>
+                <br/><h4>How Transtats Works</h4>
+                <p>Transtats Jobs sync with translation platforms, release calendars & build systems and upstream repositories for registered packages to process translation data, and represent information through graphs for enabled languages grouped by releases. YML based jobs enhance capabilities and makes it flexible!</p>
+                <br/><img align="center" alt="Transtats Stack" src="img/ts-stack.png"/><br/><br/>
+                <h4>Transtats in i18n and l10n</h4>
+                <p>Tracking translation progress of packages for downstream releases with respect to current development seems meaningful to localization teams, developers, package maintainers and quality engineers. From estimating translation update volume to inspecting translations in what packaged, it can be engaged throughout a release.</p>
                 <br/>
               </div>
         </div>
