@@ -53,7 +53,7 @@
         <h3>Overview for language translations across packages!</h3>
         <p>Transtats is a django app to track translation progress of packages for downstream releases with respect to current development.</p>
         <p>
-            <a class="btn btn-lg btn-default" href="https://github.com/transtats/transtats" role="button" target="_blank">View on GitHub</a>
+            <a class="btn btn-lg btn-default" href="https://github.com/transtats" role="button" target="_blank">View on GitHub</a>
             <a id="applink" class="btn btn-lg btn-default" href="#" role="button">Go to App</a>
         </p>
     </div>
