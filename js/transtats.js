@@ -30,7 +30,7 @@ $('div.modal').on('show.bs.modal', function() {
 	}
 });
 
-var server_url = "transtats.xyz";
+var server_url = "transtats.devlab.redhat.com";
 $("#applink").click(function() {
     $.ajax({
         url: "http://" + server_url + "/api/ping",
@@ -39,8 +39,9 @@ $("#applink").click(function() {
             window.location.href = "http://" + server_url
         },
         error: function(r, s, e) {
-            document.getElementById("id_server_url").innerHTML = server_url;
-            $("#serverNotReachable").modal()
+            //document.getElementById("id_server_url").innerHTML = server_url;
+            //$("#serverNotReachable").modal()
+            window.location.href = "https://transtats.fedoraproject.org/"
         },
         timeout: 4000 // sets timeout to 4 seconds
     })
