@@ -1,0 +1,8 @@
+---
+layout: default
+img: coverage.png
+category: Services
+title: Translation coverage<br><small>based on</small> rules
+description: |
+---
+Sometimes tracking translation status of a component (for a release) is required, where a component comprises of a set of packages. This can be achieved by creating coverage rules. Rule of a package set for a specific release in associated (to release branch) or selected languages.
