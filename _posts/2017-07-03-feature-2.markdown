@@ -5,4 +5,4 @@ category: Features
 title: Translation volume estimation
 description: |
 ---
-Having an estimate at an early stage of the development cycle is very helpful for the translation team. Transtats does it for releases across packages. It has three views: combined, detailed and per language. This is achieved through branch mapping maintained for every package. It is also helpful for package maintainers and developers tracking strings during translation and packaging.
+Having an estimate at an early stage of the development cycle is very helpful for managing localization effort. Transtats does it for releases across packages. It has three views: combined, detailed and per language. This is achieved through branch mapping maintained for every package. It is helpful for language and package maintainers to track messages during translation and packaging.

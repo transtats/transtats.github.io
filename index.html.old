@@ -76,7 +76,7 @@
 
     <footer class="footer">
         <p>
-            <span style="padding-left: 10px;padding-right: 20px" class="pull-left"><img alt="Red Hat" src="assets/img/redhat.png"/></span>
+            <span style="padding-left: 10px;padding-right: 20px" class="pull-left"><img alt="Red Hat" src="assets/img/redhat.png" style="width:150px;height:35px;"/></span>
             <span class="text-muted" style="font-size: small">Transtats is a <a href="https://www.redhat.com/" target="_blank">Red Hat</a> sponsored project.<br/>
                 Content on this site is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">
                     Creative Commons Attribution 4.0 International license.</a>

@@ -1,8 +1,8 @@
 ---
 layout: default
-img: coverage.png
+img: graph.png
 category: Services
-title: Package set coverage<br><small>based on</small> graph rules
+title: Product release readiness
 description: |
 ---
-Sometimes tracking translation status of a component (for a release) is required, where a component comprises of a set of packages. This can be achieved by creating graph rules. Rule of a package set for a specific release in associated (to release branch) or selected languages. And coverage graphs are created based on these rules.
+An attempt to group statistics of languages for a release by territory. By clicking on a territory one can know which languages people speak there. It shows high level summary about translations at both platform and build system too. Congratulations to the translation teams making it to trending languages list for the latest release.
