@@ -30,7 +30,7 @@ $('div.modal').on('show.bs.modal', function() {
 	}
 });
 
-var server_url = "transtats.devlab.redhat.com";
+var server_url = "transtats.psi.redhat.com";
 $("#applink").click(function() {
     $.ajax({
         url: "http://" + server_url + "/api/ping",
